@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    background-image: url(./Assets/banner.jpg);
+    background-size: cover;
+
+    
+}
+nav{
+    height: 80px;
+    width: 100vw;
+    background: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.logo{
+    height: 100px;
+    margin-left: 40px;
+}
+.eng{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.eng:hover{
+    background-color: aliceblue;
+    color: #303030;
+    transition: background-color 1s ease;
+}
+
+.sign{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.hero-section{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+.hero-section p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+
+}
+.in{
+    height: 100px;
+    width: 642px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section input{
+    height: 50px;
+    width: 500px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.hero-section button{
+    height: 50px;
+    width: 130px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+}
+.hero-section button:hover{
+    transition: background-color 1s ease;
+    transition: width 3s ease;
+    background-color: #303030;
+    color: aliceblue;
+    width: 200px;
+}
+.second-container{
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    border-top: 5px solid rgb(78, 74, 74);
+}
+.second-text{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.second-container h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.second-container p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+
+}
+.tv{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: 0;
+}
+.card{
+    position: relative;
+    height: 70px;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -100px;
+    margin-left: 90px;
+    z-index: 5;
+    border-radius: 5px;
+    border: 1px solid rgb(159, 157, 157);
+    display: flex;
+    flex-direction: row;
+    
+}
+.str-img{
+    height: 100%;
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.str-text{
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+    flex-direction: column;
+
+
+
+}
+.str-text h4{
+    font-size: 16px;
+    color: white;
+}
+.str-text p{
+    font-size: 15px;
+    color: blue;
+}
+.str-btn{
+    height: 100%;
+    width: 20%;
+
+}
+.FAQ{
+    height: 150vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: white;
+    border-top: 5px solid rgb(78, 74, 74);
+    
+
+}
+.faq-box{
+    height: 80px;
+    width: 800px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.in{
+    height: 100px;
+    width: 642px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FAQ input{
+    height: 50px;
+    width: 500px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.FAQ button{
+    height: 50px;
+    width: 130px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+
+
+}
+footer{
+    height: 70vh;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 5px solid rgb(78, 74, 74);
+
+}
+footer p{
+    margin-left: -430px;
+    color: #d1cece;
+
+
+}
+.lists{
+    width: 800px;
+    height: 200px;
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px
+    
+}
+.lists ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #d1cece;
+}
+
+
+
+
+@media(max-width: 768px){
+    nav{
+        height: 150px;
+        width: 100vw;
+        /* background: none; */
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+   #hone{
+    margin-right: 91px;
+   }
+   .hero-section h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.hero-section p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: white;
+
+}
+.hero-section input{
+    height: 50px;
+    width: 300px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.hero-section button{
+    height: 50px;
+    width: 80px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 12px;
+}
+.hero-section button:hover{
+    transition: background-color 1s ease;
+    transition: width 3s ease;
+    background-color: #303030;
+    color: aliceblue;
+    width: 100px;
+}
+.second-container{
+    height: 150vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid rgb(78, 74, 74);
+}
+.second-text{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.tv{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 0;
+}
+.tv-img{
+    height: 200px;
+}
+.faq-box{
+    height: 50px;
+    width: 400px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.FAQ input{
+    height: 50px;
+    width: 300px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.FAQ button{
+    height: 50px;
+    width: 80px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 14px;
+
+
+}
+footer{
+    height: 70vh;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 5px solid rgb(78, 74, 74);
+
+}
+footer p{
+    margin-left: -430px;
+    color: #d1cece;
+
+
+}
+.lists{
+    width: 400px;
+    height: 200px;
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px
+    
+}
+.lists ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #d1cece;
+}
+}
